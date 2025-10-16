@@ -1,19 +1,19 @@
-Ось ваш відформатований текст, поміщений у вікно коду, щоб ви могли його легко скопіювати:
+Ось той самий текст англійською мовою, відформатований у Markdown і поміщений у вікно коду для зручності копіювання:
 
 ````markdown
-**Веб-сайт проєкту:** [https://map-and-weather-webs-jj4u.bolt.host](https://map-and-weather-webs-jj4u.bolt.host)
+**Project Website:** [https://map-and-weather-webs-jj4u.bolt.host](https://map-and-weather-webs-jj4u.bolt.host)
 
 ---
 
-## 📚 Необхідні Бібліотеки (LIBRARIES)
+## 📚 Required Libraries (LIBRARIES)
 
-Для запуску програми встановіть наступні пакети:
+To run the application, install the following packages:
 
 ```bash
 pip install pyqt5 pyqtwebengine geopy folium requests serpapi
 ````
 
-**Список бібліотек:**
+**List of Libraries:**
 
   * `pyqt5`
   * `pyqtwebengine`
@@ -24,34 +24,34 @@ pip install pyqt5 pyqtwebengine geopy folium requests serpapi
 
 -----
 
-## 🚀 Вимоги для Запуску та Налаштування
+## 🚀 Setup and Launch Requirements
 
-Щоб програма працювала коректно та відображала всі функції, необхідно виконати такі кроки:
+To ensure the program runs correctly and displays all features, the following steps are necessary:
 
-### 1\. Отримання та Встановлення API Ключів (Obtain and Set Up API Keys)
+### 1\. Obtain and Set Up API Keys
 
-Я повинен вставити мої особисті ключі безпосередньо у відповідні змінні в коді:
+I need to insert my personal keys directly into the corresponding variables in the code:
 
-  * **Ключ OpenWeatherMap:** Я мушу вставити його у змінну `OPENWEATHERMAP_API_KEY`, щоб програма могла отримувати погодні дані.
-  * **Ключ SerpAPI:** Я мушу вставити його у змінну `SERPAPI_KEY`, щоб мій AI-асистент міг виконувати пошук у Google у реальному часі.
+  * **OpenWeatherMap Key:** I must insert this into the `OPENWEATHERMAP_API_KEY` variable so the application can fetch weather data.
+  * **SerpAPI Key:** I must insert this into the `SERPAPI_KEY` variable so my AI Assistant can perform real-time Google searches.
 
-*(**Важливо:** Без цих ключів я не побачу актуальну погоду і не зможу користуватися функціями AI-асистента).*
+*(**Important:** Without these keys, I will not see the current weather or be able to use the AI assistant features).*
 
-### 2\. Створення Папки Фонів (Create the Backgrounds Folder)
+### 2\. Create the Backgrounds Folder
 
-Мені потрібно створити папку з назвою `backgrounds` у тій самій директорії, що й мій Python-файл, і розмістити в ній зображення для динамічного фону:
+I need to create a folder named `backgrounds` in the same directory as my Python file and place images inside it for the dynamic background:
 
-  * `clear*.jpg` (для ясної погоди)
-  * `clouds*.jpg` (для хмарної погоди)
-  * `rain*.jpg` (для дощу)
-  * `storm*.jpg` (для штормів)
-  * `snow*.jpg` (для снігу)
+  * `clear*.jpg` (for clear weather)
+  * `clouds*.jpg` (for cloudy weather)
+  * `rain*.jpg` (for rain)
+  * `storm*.jpg` (for storms)
+  * `snow*.jpg` (for snow)
 
-*(Це необхідно, щоб програма мала естетичний, динамічно змінюваний фон).*
+*(This is necessary for the application to have a beautiful, dynamically changing background).*
 
-### 3\. Забезпечення Підключення до Інтернету (Ensure Internet Connection)
+### 3\. Ensure Internet Connection
 
-Я мушу переконатися, що мій комп'ютер має активне підключення до Інтернету, оскільки програма постійно взаємодіє з різними зовнішніми сервісами (погода, геокодування, переклад та пошукові API).
+I must make sure my computer has an active Internet connection, as the program constantly interacts with various external services (weather, geocoding, translation, and search APIs).
 
 ```
 ```
