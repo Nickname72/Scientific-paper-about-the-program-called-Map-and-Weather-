@@ -1,30 +1,57 @@
-Site - https://map-and-weather-webs-jj4u.bolt.host
+Ось ваш відформатований текст, поміщений у вікно коду, щоб ви могли його легко скопіювати:
 
-LIBRARIES:
+````markdown
+**Веб-сайт проєкту:** [https://map-and-weather-webs-jj4u.bolt.host](https://map-and-weather-webs-jj4u.bolt.host)
 
-1. pyqt5
-2. pyqtwebengine
-3. geopy
-4. folium
-5. requests
-6. serpapi
+---
 
-1. Obtain and Set Up API Keys:
-  ‣ I need my personal OpenWeatherMap API key. I must insert this into the OPENWEATHERMAP_API_KEY variable in the code so the application can fetch weather data.
-  ‣ I need my SerpAPI key. I must insert this into the SERPAPI_KEY variable so that my AI Assistant can perform real-time searches on Google.
-  (Without these keys, I will not see the current weather or be able to use the AI assistant features).
+## 📚 Необхідні Бібліотеки (LIBRARIES)
 
-2. Create the Backgrounds Folder:
-  ‣ I need to create a folder named backgrounds in the same directory as my Python file.
-  ‣ I must place at least one image in this folder for each weather type, using the corresponding names to start the filename:
-    • clear*.jpg (for clear weather)
-    • clouds*.jpg (for cloudy weather)
-    • rain*.jpg (for rain)
-    • storm*.jpg (for storms)
-    • snow*.jpg (for snow)
-(This is necessary for the application to have a beautiful, dynamically changing background).
+Для запуску програми встановіть наступні пакети:
 
-3. Ensure Internet Connection:
-  • I must make sure my computer has an active Internet connection,
-  as the program constantly interacts with various external services 
-  (weather, geocoding, translation, and search APIs).
+```bash
+pip install pyqt5 pyqtwebengine geopy folium requests serpapi
+````
+
+**Список бібліотек:**
+
+  * `pyqt5`
+  * `pyqtwebengine`
+  * `geopy`
+  * `folium`
+  * `requests`
+  * `serpapi`
+
+-----
+
+## 🚀 Вимоги для Запуску та Налаштування
+
+Щоб програма працювала коректно та відображала всі функції, необхідно виконати такі кроки:
+
+### 1\. Отримання та Встановлення API Ключів (Obtain and Set Up API Keys)
+
+Я повинен вставити мої особисті ключі безпосередньо у відповідні змінні в коді:
+
+  * **Ключ OpenWeatherMap:** Я мушу вставити його у змінну `OPENWEATHERMAP_API_KEY`, щоб програма могла отримувати погодні дані.
+  * **Ключ SerpAPI:** Я мушу вставити його у змінну `SERPAPI_KEY`, щоб мій AI-асистент міг виконувати пошук у Google у реальному часі.
+
+*(**Важливо:** Без цих ключів я не побачу актуальну погоду і не зможу користуватися функціями AI-асистента).*
+
+### 2\. Створення Папки Фонів (Create the Backgrounds Folder)
+
+Мені потрібно створити папку з назвою `backgrounds` у тій самій директорії, що й мій Python-файл, і розмістити в ній зображення для динамічного фону:
+
+  * `clear*.jpg` (для ясної погоди)
+  * `clouds*.jpg` (для хмарної погоди)
+  * `rain*.jpg` (для дощу)
+  * `storm*.jpg` (для штормів)
+  * `snow*.jpg` (для снігу)
+
+*(Це необхідно, щоб програма мала естетичний, динамічно змінюваний фон).*
+
+### 3\. Забезпечення Підключення до Інтернету (Ensure Internet Connection)
+
+Я мушу переконатися, що мій комп'ютер має активне підключення до Інтернету, оскільки програма постійно взаємодіє з різними зовнішніми сервісами (погода, геокодування, переклад та пошукові API).
+
+```
+```
