@@ -1,17 +1,4 @@
-Ось той самий текст англійською мовою, відформатований у Markdown і поміщений у вікно коду для зручності копіювання:
 
-````markdown
-**Project Website:** [https://map-and-weather-webs-jj4u.bolt.host](https://map-and-weather-webs-jj4u.bolt.host)
-
----
-
-## 📚 Required Libraries (LIBRARIES)
-
-To run the application, install the following packages:
-
-```bash
-pip install pyqt5 pyqtwebengine geopy folium requests serpapi
-````
 
 **List of Libraries:**
 
