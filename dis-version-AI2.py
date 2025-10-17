@@ -25,7 +25,7 @@ from serpapi import GoogleSearch
 OPENWEATHERMAP_API_KEY = "1a61ee3445e9c64367cd8d49289388a1"
 # 🔧 Налаштування API ключів
 # ВСТАВЛЕНО ВАШ КЛЮЧ SERPAPI
-SERPAPI_KEY = "37f1de475446c2a374c10fb273bb7e6c28796441ebea190b3f87d4daa3d7cdb7"
+SERPAPI_KEY = "8bfd0e0df483c02d914bf8e04039982d0262ec61d980cd9daa344c766116f252"
 TRANSLATE_URL = "https://libretranslate.com/translate"
 
 DEFAULT_LOCATION = (50.4501, 30.5234) # Київ, Україна
